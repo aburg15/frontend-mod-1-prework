@@ -36,7 +36,7 @@ I use twitter frequently.  Twitter uses variables in the following ways:
 
 Concatenation is the process of combining or joining variables along with other text to create a sentence.  
 
-8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
 When I use espn.com the website displays "Hello, aburg15" on the main page which is more than likely displayed using concatenation.
 
