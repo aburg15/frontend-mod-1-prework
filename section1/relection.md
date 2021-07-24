@@ -28,9 +28,9 @@ A variable is used to store a value that can then be reused in different areas. 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
 I use twitter frequently.  Twitter uses variables in the following ways:
-1. Variable to store your username which would be a string data type.
-2. Variable to show how many followers you have which would be a number data type.
-3. Variable used to tell me if my password is incorrect or not which would be a boolean data type.
+  1. Variable to store your username which would be a string data type.
+  2. Variable to show how many followers you have which would be a number data type.
+  3. Variable used to tell me if my password is incorrect or not which would be a boolean data type.
 
 7. In your own words, explain what concatenation is.
 
