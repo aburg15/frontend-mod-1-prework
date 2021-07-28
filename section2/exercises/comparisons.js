@@ -23,9 +23,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 // this should log: true
 
 /*
@@ -35,6 +37,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -48,18 +51,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -74,21 +82,28 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+//Evaluating whether or not 4 is less than 9.  The log result will be true.
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+//Assigning the variable "books" a value of 3.  The log is evaluating whether or not the number 4 is less than
+//the value of the books variable.  Since the value of the books variable is 3, which is not greater than 4, the
+//resulting log will be false. (Updated typo from "logs" to "log")
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+//Assigning the friends variable a value of 6 and the siblings variable a value of 2.  The log is Evaluating
+//if the friends value is greater than the siblings value.  Since 6 is greater than 2, the resulting log will be true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+//Assigning the attendees variable a value of 9 and the meals variable a value of 8.  The log is Evaluating
+//if the attendees value does not equal the meals value.  Since 9 does not equal 8, the resulting log is true.
 
 //-------------------
 // PART 3: Logical Operators
@@ -110,18 +125,21 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age <= 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// The final line of code evaluated to true.  This is becuase the lovesToPlay variable
+// is equal to true and the age <= 1 parameter I added to the log is also equal to true.
 
 //-------------------
 // FINAL CHECK
