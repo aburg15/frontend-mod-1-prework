@@ -16,11 +16,37 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+
+}
+
+var breed = new Dog();
+var color = new Dog();
+
+console.log(breed);
+console.log(color);
 
 // Prompt 2: Snack
+class Snack {
+
+}
+
+var chips = new Snack();
+var soda = new Snack();
+
+console.log(chips);
+console.log(soda);
 
 // Prompt 3: Shirt
+class Shirt {
 
+}
+
+var nike = new Shirt();
+var adidas = new Shirt();
+
+console.log(nike);
+console.log(adidas);
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -34,9 +60,42 @@ Make sure to run the file with node in your command line.
 
 // Prompt 1: Dog
 
+class Dogs {
+  constructor() {
+    this.breed = 'lab';
+    this.gender = 'female';
+    this.age = 2;
+  }
+}
+
+var retreiver = new Dogs();
+console.log(retreiver);
+
 // Prompt 2: Snack
 
+class Snacks {
+  constructor() {
+    this.chip = 'lays';
+    this.candyBar = 'snickers';
+    this.numberOfSnacks = 3;
+  }
+}
+
+var snackChoice = new Snacks();
+console.log(snackChoice);
+
 // Prompt 3: Shirt
+
+class Shirts {
+  constructor() {
+    this.brand = 'nike';
+    this.size = 'large';
+    this. color = 'black';
+  }
+}
+
+var shirtChoice = new Shirts();
+console.log(shirtChoice);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +110,37 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Puppies {
+  constructor(dogName, dogColor, breedType) {
+    this.name = dogName;
+    this.color = dogColor;
+    this.type = breedType;
+  }
+}
+
+var dogObject1 = new Puppies('Sally', 'yellow', 'english');
+console.log(dogObject1);
 
 // Prompt 2: Snack
+class SnackTime {
+  constructor(snackJerky, snackTwix, snackCheese) {
+    this.jerky = snackJerky;
+    this.twix = snackTwix;
+    this.cheese = snackCheese;
+  }
+}
+
+var snackObject1 = new SnackTime('slim jim', 'snickers', 'cheddar')
+console.log(snackObject1);
 
 // Prompt 3: Shirt
+class Tshirt {
+  constructor(shirtGucci, shirtLouisVitton, shirtPrada) {
+    this.gucci = shirtGucci;
+    this.louisVitton = shirtLouisVitton;
+    this.prada = shirtPrada;
+  }
+}
+
+var shirtObject1 = new Tshirt('FILA', 'American Eagle', 'Hollister')
+console.log(shirtObject1);
