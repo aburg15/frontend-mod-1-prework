@@ -41,31 +41,31 @@ console.log(animals[2]);
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-var foods = ['pizza', 'tacos', 'burgers', 'sushi'];
+var adamFavoriteFoods = ['pizza', 'tacos', 'burgers', 'sushi'];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-console.log(foods.length);
+console.log(adamFavoriteFoods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-foods.push('broccoli');
-console.log(foods);
+adamFavoriteFoods.push('broccoli');
+console.log(adamFavoriteFoods);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-foods.pop();
-console.log(foods);
+adamFavoriteFoods.pop();
+console.log(adamFavoriteFoods);
 
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-foods.push('salad', 'sandwich', 'potatoes');
-console.log(foods);
+adamFavoriteFoods.push('salad', 'sandwich', 'potatoes');
+console.log(adamFavoriteFoods);
 
 // YOU DO: Remove the food that is in index position 0.
-foods.shift();
-console.log(foods);
+adamFavoriteFoods.shift();
+console.log(adamFavoriteFoods);
 //-------------------
 // PART 3: Where are Arrays used?
 //-------------------

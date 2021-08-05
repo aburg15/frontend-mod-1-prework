@@ -10,26 +10,26 @@ Make sure to run the file with node in your command line.
 
 // EXAMPLE: Write code below that iterates through a list of animals and print
 // each animal.
-var animals = ["Zebra", "Giraffe", "Elephant"];
+var zooAnimals = ["Zebra", "Giraffe", "Elephant"];
 
-for (var i = 0; i < animals.length; i++) {
-  console.log(animals[i]);
+for (var i = 0; i < zooAnimals.length; i++) {
+  console.log(zooAnimals[i]);
 }
 
 // YOU DO: Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
-var animals2 = ['Bear', 'Wolf', 'Snake', 'Frog'];
+var zooAnimals2 = ['Bear', 'Wolf', 'Snake', 'Frog'];
 
-for (var i = 0; i < animals2.length; i++) {
-  console.log('The '+ animals2[i] +' is awesome!');
+for (var i = 0; i < zooAnimals2.length; i++) {
+  console.log('The '+ zooAnimals2[i] +' is awesome!');
 }
 
 // YOU DO: Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-var food = ['Taco', 'Pizza', 'Burger'];
+var junkFood = ['Taco', 'Pizza', 'Burger'];
 
-for (var i = 0; i < food.length; i++) {
-  console.log('Add '+ food[i] +' to shopping list');
+for (var i = 0; i < junkFood.length; i++) {
+  console.log('Add '+ junkFood[i] +' to shopping list');
 }
 
 // YOU DO: Create an array of numbers and then iterate over that array to log double
@@ -42,10 +42,10 @@ for (var i = 0; i < num.length; i++) {
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
 // each name except the first two.
-var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
+var birthdayNames = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
-for (var i = 2; i < names.length; i++) {
-  console.log('Happy Birthday ' +names[i]);
+for (var i = 2; i < birthdayNames.length; i++) {
+  console.log('Happy Birthday ' +birthdayNames[i]);
 }
 
 // THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
@@ -58,10 +58,10 @@ for (var i = 2; i < names.length; i++) {
 
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
-var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
+var peoplesAges = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
-for (var i = 0; i < ages.length; i++) {
-  if (ages[i] < 18) {
+for (var i = 0; i < peoplesAges.length; i++) {
+  if (peoplesAges[i] < 18) {
     console.log("Oh no, you can't vote quite yet.");
   } else {
     console.log('Make sure you get out and vote!');
