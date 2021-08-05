@@ -20,11 +20,11 @@ class Dog {
 
 }
 
-var breed = new Dog();
-var color = new Dog();
+var dogBreed = new Dog();
+var dogColor = new Dog();
 
-console.log(breed);
-console.log(color);
+console.log(dogBreed);
+console.log(dogColor);
 
 // Prompt 2: Snack
 class Snack {
@@ -42,11 +42,11 @@ class Shirt {
 
 }
 
-var nike = new Shirt();
-var adidas = new Shirt();
+var shirtBrandNike = new Shirt();
+var shirtBrandAdidas = new Shirt();
 
-console.log(nike);
-console.log(adidas);
+console.log(shirtBrandNike);
+console.log(shirtBrandAdidas);
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -68,8 +68,8 @@ class Dogs {
   }
 }
 
-var retreiver = new Dogs();
-console.log(retreiver);
+var labradorRetreiver = new Dogs();
+console.log(labradorRetreiver);
 
 // Prompt 2: Snack
 
@@ -90,7 +90,7 @@ class Shirts {
   constructor() {
     this.brand = 'nike';
     this.size = 'large';
-    this. color = 'black';
+    this.color = 'black';
   }
 }
 

@@ -47,15 +47,15 @@ class Burrito {
 
 
 // ADD CODE
-var order1 = new Burrito('chicken', 'corn', ['tomato', 'onion', 'peppers']);
-var order2 = new Burrito('steak', 'flour', ['rice', 'hot sauce', 'pickles']);
-var order3 = new Burrito('chorizo', 'taco', ['beans', 'cheese', 'lettuce']);
+var burritoOrder1 = new Burrito('chicken', 'corn', ['tomato', 'onion', 'peppers']);
+var burritoOrder2 = new Burrito('steak', 'flour', ['rice', 'hot sauce', 'pickles']);
+var burritoOrder3 = new Burrito('chorizo', 'taco', ['beans', 'cheese', 'lettuce']);
 
-order1.changeProtein('tofu');
-console.log(order1);
+burritoOrder1.changeProtein('tofu');
+console.log(burritoOrder1);
 
-order2.addTopping('avocado');
-console.log(order2);
+burritoOrder2.addTopping('avocado');
+console.log(burritoOrder2);
 
-order3.addTopping('sour cream');
-console.log(order3);
+burritoOrder3.addTopping('sour cream');
+console.log(burritoOrder3);
